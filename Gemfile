@@ -36,6 +36,10 @@ end
 group :development do
   gem 'capistrano-rails'
   gem 'capistrano-nginx'
+  gem 'capistrano-rvm'
+  gem 'capistrano-passenger'
+  gem "capistrano-scm-copy"
+
   gem 'awesome_print'
   gem 'pry'
   # gem 'better_errors'
