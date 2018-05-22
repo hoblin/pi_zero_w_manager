@@ -5,9 +5,10 @@ set :application, "pi_zero_w_manager"
 
 set :repository, '.'
 set :scm, :copy
-set :nginx_path, '/opt/nginx'
-set :deploy_to, '/home/pi/www'
+set :deploy_to, '/home/pi/www/pi_zero_w_manager'
 set :exclude_dir, %w(log tmp)
+set :passenger_in_gemfile, true
+
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml"
 
